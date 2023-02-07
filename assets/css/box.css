@@ -1,0 +1,114 @@
+.box {
+    padding: var(--space-size);
+    background-color: var(--color-main);
+    background-image: url(./../bg-images/box-mb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-light);
+}
+
+.introduce {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.text-box {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.container-box {
+    padding-top: 100%;
+}
+
+.buy-certificate {
+    background: #ED1C24;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.button-buy {
+    width: 151px;
+    height: 33px;
+    padding-top: 50px;
+}
+
+.text-line {
+    font-size: 16px;
+    line-height: 28px;
+    color: dimgray;
+    margin-top: 65px;
+    max-width: 340px;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .box {
+        background-image: url(./../bg-images/box-bg.png);
+        background-position: 80% bottom;
+        height: 100vh;
+    }
+    .introduce {
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 63px;
+    }
+    .text-box {
+        width: 570px;
+        margin-top: 14px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .prise {
+        margin-top: 51px;
+        background-color: #FFFFFF;
+        border-radius: 14px;
+        padding: 0 120px;
+        max-width: 570px;
+    }
+
+    .container-box {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50%;
+        padding-top: 0;
+    }
+
+    .text-line {
+        margin-top: 90px;
+    }
+
+
+    .buy-certificate {
+        margin-bottom: 50px;
+        width: 312px;
+        height: 80px;
+    }
+
+    .button-buy {
+        width: 205px;
+        height: 45px;
+        padding-top: 50px;
+    }
+
+}
+.prise {
+    border-radius: 26px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+
+
+

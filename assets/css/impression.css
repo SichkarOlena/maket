@@ -1,0 +1,88 @@
+.impression {
+    padding: var(--space-size);
+    background-color: #F9F9F9;
+    background-image: url(./../bg-images/impression-pattern.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-container {
+    margin-top: 50px;
+    width: 300px;
+    padding: 0;
+}
+
+.impression-text {
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    color: #ED1C24;
+    text-align: center;
+}
+
+.present-img {
+    width: 200px;
+    height: 200px;
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 132px;
+}
+
+@media (min-width: 768px) {
+    .text-container {
+        width: 970px;
+        padding: 0 20px;
+
+    }
+
+    .impression-text {
+        font-size: 62px;
+        line-height: 76px;
+    }
+
+    .present-img {
+        width: 303px;
+        height: 513px;
+    }
+    .button-container {
+        width: 900px;
+    }
+}
+
+.text-container {
+    left: 97px;
+    right: -97px;
+}
+
+h2 {
+    font-size: 42px;
+    text-align: center;
+    color: #221112;
+    margin-top: 72px;
+}
+
+
+
+.great-britain-img {
+
+}
+button {
+    font-size:100%;
+    padding: 15px 15px 15px;
+    border-radius: 70px;
+    background-color: #EDDFE0;
+    border: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
